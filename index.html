@@ -65,11 +65,11 @@
   </style>
 </head>
 
-<body class="h-100">
+<body>
   <br />
 
   <div class="container h-100">
-    <div class="row h-80">
+    <div class="row h-75">
       <div class="col-sm-3 border rounded message-container">
         <h1 class="pb-2">Messages</h1>
         <!-- <div class="design"> -->
@@ -85,7 +85,7 @@
         <div class="rounded-bottom p-2 text-center mb-2 mx-5 bottom- border rounded ">
           Sent
         </div>
-        <button class="btn btn-primary mt-3 mx-5 centered-button">New Message</button>
+        <button class="btn btn-primary mt-3 mx-5 centered-button"  style="margin: 0 10px; width: 160px;">New Message</button>
 
       </div>
 
@@ -109,7 +109,7 @@
             </li>
             <li class="inbox-content border-bottom p-2 mb-2">
               <strong>User UserPerson, Another Person &nbsp;&nbsp;&nbsp;</strong>
-              <span id="messageDate1" class="text-muted ml-1"></span>
+              <span id="messageDate3" class="text-muted ml-1"></span>
               <p>subject text</p>
             </li>
 
@@ -142,13 +142,13 @@
             </li>
             <li class="inbox-content border-bottom p-2 mb-2">
               <strong>User UserPerson, Another Person &nbsp;&nbsp;&nbsp;</strong>
-              <span id="messageDate1" class="text-muted ml-1"></span>
+              <span id="messageDate9" class="text-muted ml-1"></span>
               <p>subject text</p>
             </li>
 
             <li class="inbox-content border-bottom p-2 mb-2">
               <strong>User UserPerson, Another Person &nbsp;&nbsp;&nbsp;</strong>
-              <span id="messageDate2" class="text-muted ml-1"></span>
+              <span id="messageDate10" class="text-muted ml-1"></span>
               <p>subject text</p>
             </li>
 
@@ -178,29 +178,34 @@
           <div id="div2-1" style="height:50%;">
             <div class="subject-scrollable-view overflow-auto mx-3">
               <h4>Subject Text</h4>
-              <h6 class=" pb-2 mt-3 " id="currentDate"></h6> <br />
-              <p>From : User Person</p> <br />
-              <p>To: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam eum consequatur at beatae
-                mollitia commodi sapiente doloribus quod porrs sunt inventore quam, doloribus facere deserunt ut quod
-                dolorem mollitia quidem nemo veritatis quas commodi vero nesciunt voluptatem labore accusantium atque
-                ratione maxime id? Tempora quas neque cupiditate reiciendis minima unde omnis repudiandae fugit nam modi
-                ipsum, asperiores esse qui odit non? Ad, ullam quae quibusdam modi omnis fugit ea rem? Doloremque,
-                itaque labore sequi voluptates, rerum, magni vel dicta in porro ut incidunt eos quas accusamus
-                repellendus! Ipsa, corporis cum tempora adipisci autem soluta quaerat voluptatibus nulla sequi ab rem et
-                enim qui accusamus blanditiis esse fuga quod amet consectetur veniam minima reprehenderit at error!
-                Aliquid minus animi ratione pariatur at dolorem maiores quibusdam dolor quo, soluta et laborum, eveniet
-                rerum accusantium omnis labore ducimus accusamus natus provident. Dolorum, aperiam. Blanditiis sint
-                neque recusandae ab quod, ut libero. Reprehenderit in magni eum suscipit. Dignissimos sed, recusandae
-                mollitia beatae sunt dolores harum dolorem odit sequi sapiente, officia veritatis qui est maiores
-                tempora quam porro fuga rem veniam fugit similique officiis aut. Corrupti aperiam ullam excepturi totam,
-                voluptatibus sed, vel numquam maiores inventore eaque debitis sunt, quos ratione aliquid aspernatur
-                repudiandae quaerat dolorum voluptatem corporis quo voluptates impedit nobis ipsam magnam. Aspernatur
-                illo sit minima harum, qui repellat perferendis, sunt amet, provident rem non corporis ipsum natus
-                neque! Aperiam iste nam soluta distinctio aliquid possimus, doloremque voluptates. Consequatur
-                consequuntur obcaecati vitae quae, provident tempore ipsa iusto recusandae enim voluptatem quaerat. Amet
-                magni rerum ullam provident reiciendis quia repellat enim, molestias deleniti suscipit quidem voluptatem
-                officiis
-              </p>
+              <p class=" mt-3 " id="messageDate11"></p> <br />
+              <p class=" mt-1 ">From : User Person</p> <br />
+              
+
+              
+              <div class="border-bottom ">
+                <p>To: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam eum consequatur at beatae
+                  mollitia commodi sapiente doloribus quod porrs sunt inventore quam, doloribus facere deserunt ut quod
+                  dolorem mollitia quidem nemo veritatis quas commodi vero nesciunt voluptatem labore accusantium atque
+                  ratione maxime id? Tempora quas neque cupiditate reiciendis minima unde omnis repudiandae fugit nam modi
+                  ipsum, asperiores esse qui odit non? Ad, ullam quae quibusdam modi omnis fugit ea rem? Doloremque,
+                  itaque labore sequi voluptates, rerum, magni vel dicta in porro ut incidunt eos quas accusamus
+                  repellendus! Ipsa, corporis cum tempora adipisci autem soluta quaerat voluptatibus nulla sequi ab rem et
+                  enim qui accusamus blanditiis esse fuga quod amet consectetur veniam minima reprehenderit at error!
+                  Aliquid minus animi ratione pariatur at dolorem maiores quibusdam dolor quo, soluta et laborum, eveniet
+                  rerum accusantium omnis labore ducimus accusamus natus provident. Dolorum, aperiam. Blanditiis sint
+                  neque recusandae ab quod, ut libero. Reprehenderit in magni eum suscipit. Dignissimos sed, recusandae
+                  mollitia beatae sunt dolores harum dolorem odit sequi sapiente, officia veritatis qui est maiores
+                  tempora quam porro fuga rem veniam fugit similique officiis aut. Corrupti aperiam ullam excepturi totam,
+                  voluptatibus sed, vel numquam maiores inventore eaque debitis sunt, quos ratione aliquid aspernatur
+                  repudiandae quaerat dolorum voluptatem corporis quo voluptates impedit nobis ipsam magnam. Aspernatur
+                  illo sit minima harum, qui repellat perferendis, sunt amet, provident rem non corporis ipsum natus
+                  neque! Aperiam iste nam soluta distinctio aliquid possimus, doloremque voluptates. Consequatur
+                  consequuntur obcaecati vitae quae, provident tempore ipsa iusto recusandae enim voluptatem quaerat. Amet
+                  magni rerum ullam provident reiciendis quia repellat enim, molestias deleniti suscipit quidem voluptatem
+                  officiis
+                </p>
+              </div>
 
             </div>
           </div>
@@ -232,70 +237,17 @@
         </div>
       </div>
     </div>
-    <div class="row h-20">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At amet aspernatur voluptate omnis, non rerum eaque,
-        labore, vel maxime aperiam beatae obcaecati quisquam cupiditate fuga debitis quia odit voluptas doloremque?</p>
+    
+    <div class ="row h-25 ">
+      <div class="edit">
+        <button type="button" class="btn btn-secondary btn-lg float-end" style="width: 160px;">Reply</button>
+        <button type="button" class="btn btn-secondary btn-lg float-end" style="margin: 0 10px; width: 160px;">Forward</button>
+        <button type="button" class="btn btn-primary btn-lg float-end" style="width: 160px;">Delete</button>
+      </div>
     </div>
   </div>
-
-  <!-- <div class="container h-100">
-    <div class="row h-80">
-      <div class="col-sm-3 border rounded message-container">
-        <h1 class="pb-2">Messages</h1>
-        <div class="bg-primary text-white rounded-top p-2 text-center mx-5 design">
-          <div class="inbox1"> Inbox (23)</div>
-          <div class="inbox2"> 2</div>
-        </div>
-        <div class="rounded-bottom p-2 text-center mb-2 mx-5 bottom- border rounded ">
-          Sent
-        </div>
-        <button class="btn btn-primary mt-3 mx-5 centered-button">New Message</button>
-      </div>
-
-      <div class="col-sm-5 border rounded message-container">
-        <h1 class="border-bottom pb-2">Inbox</h1>
-        <div class="inbox-scrollable-view overflow-auto">
-          <ul class="list-unstyled">
-           
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-sm-5 border rounded message-container">
-        <h1 class="border-bottom pb-2">Inbox</h1>
-        <div class="inbox-scrollable-view overflow-auto">
-          <ul class="list-unstyled">
-            <li class="inbox-content border p-3 mb-2"><span class="font-weight-bold">Date:</span>
-              <%= new Date().toLocaleString() %>, Message 1
-            </li>
-            <hr />
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-sm rounded message-container">
-        <div class="row">
-          <div id="div2-1" style="height:50%;">
-            <div class="subject-scrollable-view overflow-auto mx-3">
-            
-            </div>
-          </div>
-
-          <div id="div2-2" style="height:50%;">
-            <div class="subject-scrollable-view overflow-auto mx-3">
-             
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row h-20">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At amet aspernatur voluptate omnis, non rerum eaque,
-        labore, vel maxime aperiam beatae obcaecati quisquam cupiditate fuga debitis quia odit voluptas doloremque?</p>
-    </div>
-  </div>
-   -->
+  
+  
    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-LX1oTDBh3h0ljZ6n8FPlTkgXY4DWgA9/pz97UVLpMEV7lJKdIpnYJ42Z/Qjepxh6"
@@ -311,6 +263,16 @@
     // Display the date inside the span elements
     document.getElementById("messageDate1").textContent = formattedDate;
     document.getElementById("messageDate2").textContent = formattedDate;
+    document.getElementById("messageDate3").textContent = formattedDate;
+    document.getElementById("messageDate4").textContent = formattedDate;
+    document.getElementById("messageDate5").textContent = formattedDate;
+    document.getElementById("messageDate6").textContent = formattedDate;
+    document.getElementById("messageDate7").textContent = formattedDate;
+    document.getElementById("messageDate8").textContent = formattedDate;
+    document.getElementById("messageDate9").textContent = formattedDate;
+    document.getElementById("messageDate10").textContent = formattedDate;
+    document.getElementById("messageDate11").textContent = formattedDate;
+
     // Add more lines for additional ids as needed
   </script>
 
