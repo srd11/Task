@@ -1,0 +1,25 @@
+.design{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.inbox1{
+    /* display: inline-block; */
+    padding-left: 40px;
+    /* margin-left: 20px; */
+}
+.inbox2{
+    display: inline-block;
+    text-align: right;
+    
+}
+.centered-button {
+    /* Optional: Add some styling for the button */
+    padding: 10px 20px;
+    /* background-color: #3498db; */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
