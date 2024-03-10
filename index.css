@@ -23,3 +23,8 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .edit{
+    z-index: 1;
+    justify-items: right;
+    padding: 20px;
+  }
